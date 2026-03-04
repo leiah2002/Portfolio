@@ -1,11 +1,244 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Daisy Leah — Graphic Designer and user support officer</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Open+Sans:wght@300;400&family=Poppins:wght@700;800&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Meta -->
+  <meta name="description" content="Daisy Leah — Graphic Designer. Portfolio showcasing branding, posters and digital ads.">
 </head>
 <body>
-    <h1>My name is Daisy Leah</h1>
+
+  <!-- NAV -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo">Daisy <span>Leah</span></div>
+      <nav class="nav">
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact" class="cta">Contact</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <h1>Hi, I’m <span class="accent">Daisy Leah</span> 💜</h1>
+        <p class="lead">Graphic Designer & Visual Storyteller — I turn ideas into striking visuals with color and purpose.</p>
+        <div class="hero-actions">
+          <a href="#work" class="btn">View My Work</a>
+          <a href="#contact" class="btn btn-outline">Hire Me</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <!-- Placeholder, replace with your illustration/photo -->
+        <div class="card mockup">Your artwork image</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section about">
+    <div class="container section-grid">
+      <div class="about-photo">
+        <div class="photo-frame">
+          <!-- Replace src with your photo -->
+          <img src="https://via.placeholder.com/420x420.png?text=Your+Photo" alt="Daisy Leah">
+        </div>
+      </div>
+      <div class="about-text">
+        <h2>About Me</h2>
+        <p>I’m a creative designer who loves turning ideas into visuals. I design with color, emotion, and purpose — specializing in branding, posters and social campaigns.</p>
+        <ul class="contact-icons">
+          <li><strong>Email:</strong> <a href="mailto:yourname@email.com">yourname@email.com</a></li>
+          <li><strong>Instagram:</strong> <a href="https://instagram.com" target="_blank">@yourhandle</a></li>
+          <li><strong>Behance:</strong> <a href="https://behance.net" target="_blank">behance.net/yourprofile</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section skills">
+    <div class="container">
+      <h2>My Skills</h2>
+      <p class="muted">Tools and strengths I use to bring projects to life.</p>
+
+      <div class="skill-grid">
+        <div class="skill">
+          <div class="skill-info">
+            <span>Adobe Illustrator</span>
+            <small>Advanced</small>
+          </div>
+          <div class="skill-bar" data-percent="90"><div></div></div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-info">
+            <span>Photoshop</span>
+            <small>Advanced</small>
+          </div>
+          <div class="skill-bar" data-percent="85"><div></div></div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-info">
+            <span>Canva</span>
+            <small>Expert</small>
+          </div>
+          <div class="skill-bar" data-percent="95"><div></div></div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-info">
+            <span>Branding</span>
+            <small>Strong</small>
+          </div>
+          <div class="skill-bar" data-percent="88"><div></div></div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-info">
+            <span>Social Media Design</span>
+            <small>Strong</small>
+          </div>
+          <div class="skill-bar" data-percent="90"><div></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WORK / PROJECTS -->
+  <section id="work" class="section work">
+    <div class="container">
+      <h2>Selected Projects</h2>
+      <p class="muted">A small selection of my branding, posters and social campaigns. Click any project for details.</p>
+
+      <div class="projects-grid">
+        <!-- Project card template -->
+        <article class="project" data-title="Brand Identity — Bloom" data-desc="Identity & packaging design for a boutique flower shop.">
+          <img src="https://via.placeholder.com/800x520.png?text=Project+1" alt="Project 1">
+          <div class="project-meta">
+            <h3>Bloom — Brand Identity</h3>
+            <button class="open-project">View</button>
+          </div>
+        </article>
+
+        <article class="project" data-title="Tiramisu Poster" data-desc="Event poster series with bold typography & texture.">
+          <img src="https://via.placeholder.com/800x520.png?text=Project+2" alt="Project 2">
+          <div class="project-meta">
+            <h3>Tiramisu — Poster Series</h3>
+            <button class="open-project">View</button>
+          </div>
+        </article>
+
+        <article class="project" data-title="Strawberry Ads" data-desc="Social media campaign for ice cream product launch.">
+          <img src="https://via.placeholder.com/800x520.png?text=Project+3" alt="Project 3">
+          <div class="project-meta">
+            <h3>Strawberry — Social Ads</h3>
+            <button class="open-project">View</button>
+          </div>
+        </article>
+
+        <!-- Add more project articles as needed -->
+      </div>
+
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section id="testimonials" class="section testimonials">
+    <div class="container">
+      <h2>Testimonials</h2>
+      <div class="testi-grid">
+        <blockquote>
+          “Daisy transformed our brand with beautiful, consistent visuals — and quick turnaround.” 
+          <cite>— Sarah M., Founder</cite>
+        </blockquote>
+        <blockquote>
+          “Her color sense and attention to detail is amazing. She made our campaign pop.” 
+          <cite>— James K., Marketing</cite>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section contact">
+    <div class="container contact-inner">
+      <div class="contact-left">
+        <h2>Let’s work together 💌</h2>
+        <p class="muted">Looking to collaborate, hire, or say hi? Drop a message below or use any link.</p>
+
+        <ul class="contact-list">
+          <li><strong>Email:</strong> <a href="mailto:yourname@email.com">yourname@email.com</a></li>
+          <li><strong>Instagram:</strong> <a href="https://instagram.com" target="_blank">@yourhandle</a></li>
+          <li><strong>Behance:</strong> <a href="https://behance.net" target="_blank">behance.net/yourprofile</a></li>
+        </ul>
+      </div>
+
+      <form id="contactForm" class="contact-form" novalidate>
+        <label>
+          <span>Name</span>
+          <input type="text" name="name" required>
+        </label>
+
+        <label>
+          <span>Email</span>
+          <input type="email" name="email" required>
+        </label>
+
+        <label>
+          <span>Message</span>
+          <textarea name="message" rows="6" required></textarea>
+        </label>
+
+        <button type="submit" class="btn">Send Message</button>
+        <p id="formMsg" class="form-msg" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>© 2025 Daisy Leah Designs</div>
+      <div class="footer-links">
+        <a href="#privacy">Privacy</a> · <a href="#terms">Terms</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- PROJECT MODAL -->
+  <div id="projectModal" class="modal" aria-hidden="true">
+    <div class="modal-content">
+      <button class="modal-close" aria-label="Close modal">✕</button>
+      <div class="modal-body">
+        <img id="modalImg" src="" alt="Project image">
+        <div class="modal-text">
+          <h3 id="modalTitle"></h3>
+          <p id="modalDesc"></p>
+          <p><strong>Tools:</strong> Illustrator • Photoshop • Canva</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
 </body>
 </html>
+
+
