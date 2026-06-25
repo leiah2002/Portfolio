@@ -1,6 +1,6 @@
 # 🌐 My Graphic Design Portfolio
 
-A personal portfolio website showcasing my web development projects, skills, and experience.
+A personal portfolio website showcasing my graphic design projects, skills, and experience.
 
 ---
 
