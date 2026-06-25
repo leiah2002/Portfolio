@@ -1,4 +1,4 @@
-# 🌐 My GRAPHIC DESIGN Portfolio
+# 🌐 My Graphic Design Portfolio
 
 A personal portfolio website showcasing my web development projects, skills, and experience.
 
